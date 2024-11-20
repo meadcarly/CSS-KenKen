@@ -15,3 +15,10 @@ body{
   margin: 1vw;
   background-color: rgb(177, 240, 219);
 }
+
+.grid{
+  display: grid;
+  border: 0.5rem solid black;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
