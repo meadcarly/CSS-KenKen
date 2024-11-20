@@ -5,3 +5,13 @@
 html {
   font-size: 10px;
 }
+
+body{
+  max-width: 800px;
+  width: 75%;
+  min-height: 500px;
+  height: 75%;
+  border: 1px dotted black;
+  margin: 1vw;
+  background-color: rgb(177, 240, 219);
+}
