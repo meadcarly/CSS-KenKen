@@ -22,3 +22,9 @@ body{
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
 }
+
+.grid-items{
+  border: 0.1rem solid gray;
+  font-size: 2rem;
+  background-color: white;
+}
