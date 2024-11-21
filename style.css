@@ -7,16 +7,21 @@ html {
 }
 
 body{
-  max-width: 800px;
-  width: 75%;
-  min-height: 500px;
-  height: 75%;
+  width: 100vw;
+  min-height: 100vh;
   border: 1px dotted black;
-  margin: 1vw;
-  background-color: rgb(177, 240, 219);
+  margin: 0;
+  background: linear-gradient(#578b88, #111);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .grid{
+  width: 90vmin;
+  max-width: 500px;
+  height: 90vmin;
+  max-height: 500px;
   display: grid;
   border: 0.5rem solid black;
   grid-template-columns: repeat(4, 1fr);
@@ -25,8 +30,12 @@ body{
 
 .grid-items{
   border: 0.1rem solid gray;
-  font-size: 2rem;
+  font-size: 1.5rem;
   background-color: white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #box3, #box7, #box10, #box11, #box12, #box15{
@@ -41,6 +50,7 @@ body{
   position: absolute;
   top: 0%;
   left: 0%;
+  margin: 0.25rem;
 }
 
 .answer{
@@ -49,3 +59,11 @@ body{
   text-align: center;
 }
 
+.special{
+  border: none;
+  font-size: 2rem;
+}
+
+@media only screen and (min-width: 475px){
+  html{ font-size: 16px;}
+}
